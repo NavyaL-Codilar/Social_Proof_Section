@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap";
-
+/*# sourceMappingURL=style.css.map */
 * {
   margin: 0;
   padding: 0;
@@ -16,28 +16,28 @@ body {
   margin: auto;
 }
 
-.container {
+.Container {
   position: relative;
   background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
 
-.heading {
+.Heading {
   width: 100%;
   text-align: center;
   opacity: 0;
   background: chocolate;
 }
 
-.main-content {
+.Main_Content {
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
   gap: 4rem;
 }
 
-.hero {
+.Hero {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -47,24 +47,24 @@ body {
   gap: 2rem;
 }
 
-.hero-title {
+.Hero_Title {
   font-size: 2.13rem;
   line-height: 1.1;
-  color: hsl(300, 33%, 54%);;
+  color: #b063b0;
 }
 
-.desc {
+.Desc {
   line-height: 1.6;
-  color: hsl(303, 10%, 53%);
+  color: #937b92;
 }
 
-.rating {
+.Rating {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.rating-box {
+.Rating_Box {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -74,17 +74,17 @@ body {
   height: 5.2rem;
   border-radius: 0.5rem;
   gap: 1rem;
-  background-color: hsl(300, 24%, 96%);
-  color: hsl(303, 10%, 53%);
+  background-color: #f7f2f7;
+  color: #937b92;
   font-weight: 700;
 }
 
-.rating-block {
+.Rating_Block {
   display: flex;
   gap: 0.8rem;
 }
 
-.testimonials {
+.Testimonials {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ body {
 .card {
   height: 16.53rem;
   border-radius: 0.5rem;
-  background-color: hsl(300, 43%, 22%);
+  background-color: #502050;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -105,10 +105,10 @@ body {
   letter-spacing: -0.5px;
   line-height: 1.5;
   text-justify: inter-ideograph;
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
-.customer-info {
+.Customer_Info {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -116,12 +116,12 @@ body {
   line-height: 1.5;
 }
 
-.customer-name {
-  color: hsl(0, 0%, 100%);
+.Customer_Name {
+  color: white;
   font-weight: 700;
   font-size: 1rem;
 }
-.customer-name span {
+.Customer_Name span {
   font-weight: 400;
   color: var(--soft-pink);
 }
@@ -144,12 +144,12 @@ body {
   right: 0;
 }
 
-.attribution {
+.Attribution {
   font-size: 0.6rem;
   text-align: center;
   margin: 1rem auto;
 }
-.attribution a {
+.Attribution a {
   color: #3e52a3;
 }
 
@@ -159,21 +159,21 @@ body {
     margin: auto;
   }
 
-  .container {
+  .Container {
     position: relative;
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
   }
 
-  .main-content {
+  .Main_Content {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
   }
 
-  .hero {
+  .Hero {
     grid-column: 2/7;
     grid-row: 1/4;
     text-align: left;
@@ -181,18 +181,18 @@ body {
     padding: 1rem 2rem;
   }
 
-  .hero-title {
+  .Hero_Title {
     font-size: 3.2rem;
     letter-spacing: -2px;
   }
 
-  .rating {
+  .Rating {
     display: block;
     grid-column: 7/11;
     grid-row: 2/5;
   }
 
-  .rating-box {
+  .Rating_Box {
     height: 3.7rem;
     margin-top: 1rem;
     margin-left: 3rem;
@@ -200,12 +200,12 @@ body {
     flex-direction: row;
   }
 
-  .rating-block {
+  .Rating_Block {
     gap: 0.5rem;
     margin-left: 2rem;
   }
 
-  .rating-txt {
+  .Rating_Txt {
     justify-content: flex-start;
     font-size: 0.83rem;
     width: 100%;
@@ -219,7 +219,7 @@ body {
     margin-left: 9rem;
   }
 
-  .testimonials {
+  .Testimonials {
     width: 100%;
     flex-direction: row;
     gap: 2rem;
@@ -232,7 +232,7 @@ body {
     width: 90%;
     height: 13.6rem;
     border-radius: 0.5rem;
-    background-color:hsl(300, 43%, 22%);;
+    background-color: #502050;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@ body {
     letter-spacing: -0.5px;
     line-height: 1.5;
     text-justify: inter-ideograph;
-    color: hsl(0, 0%, 100%);
+    color: white;
   }
 
   .c--2 {
@@ -254,7 +254,7 @@ body {
     margin-top: 2rem;
   }
 
-  .customer-info {
+  .Customer_Info {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -262,8 +262,8 @@ body {
     line-height: 1.5;
   }
 
-  .customer-name {
-    color: hsl(0, 0%, 100%);
+  .Customer_Name {
+    color: white;
     font-weight: 700;
     font-size: 0.86rem;
   }
@@ -274,21 +274,21 @@ body {
     margin: auto;
   }
 
-  .container {
+  .Container {
     position: relative;
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
   }
 
-  .main-content {
+  .Main_Content {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
   }
 
-  .hero {
+  .Hero {
     grid-column: 2/7;
     grid-row: 2/5;
     text-align: left;
@@ -296,18 +296,18 @@ body {
     padding: 1rem 2rem;
   }
 
-  .hero-title {
+  .Hero_Title {
     font-size: 3.2rem;
     letter-spacing: -2px;
   }
 
-  .rating {
+  .Rating {
     display: block;
     grid-column: 6/10;
     grid-row: 3/6;
   }
 
-  .rating-box {
+  .Rating_Box {
     height: 3.7rem;
     margin-top: 1rem;
     margin-left: 9rem;
@@ -315,13 +315,13 @@ body {
     flex-direction: row;
   }
 
-  .rating-block {
+  .Rating_Block {
     gap: 0.5rem;
     margin-left: 2rem;
     justify-content: flex-end;
   }
 
-  .rating-txt {
+  .Rating_Txt {
     justify-content: flex-start;
     font-size: 0.83rem;
     width: 100%;
@@ -335,7 +335,7 @@ body {
     margin-left: 15rem;
   }
 
-  .testimonials {
+  .Testimonials {
     width: 100%;
     flex-direction: row;
     gap: 2rem;
@@ -348,7 +348,7 @@ body {
     width: 90%;
     height: 13.6rem;
     border-radius: 0.5rem;
-    background-color: hsl(300, 43%, 22%);
+    background-color: #502050;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -359,7 +359,7 @@ body {
     letter-spacing: -0.5px;
     line-height: 1.5;
     text-justify: inter-ideograph;
-    color: hsl(0, 0%, 100%);
+    color: white;
   }
 
   .c--2 {
@@ -370,7 +370,7 @@ body {
     margin-top: 2rem;
   }
 
-  .customer-info {
+  .Customer_Info {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -378,8 +378,8 @@ body {
     line-height: 1.5;
   }
 
-  .customer-name {
-    color: hsl(0, 0%, 100%);
+  .Customer_Name {
+    color: white;
     font-weight: 700;
     font-size: 0.86rem;
   }
